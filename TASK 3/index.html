@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login with Captcha</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="generateCaptcha()">
+
+    <div class="card">
+        <form onsubmit="return validateForm()">
+            
+            <input type="text" placeholder="Enter Name" required>
+
+            <input type="password" placeholder="Enter Password" required>
+
+            <!-- Generated Captcha -->
+            <div class="captcha-box">
+                <span id="mainCaptcha"></span>
+            </div>
+
+            <!-- User Captcha Input -->
+            <input type="text" id="inputCaptcha" placeholder="Enter Captcha" required>
+
+            <button type="submit">Submit</button>
+
+            <p id="message"></p>
+
+        </form>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
