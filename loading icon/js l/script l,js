@@ -1,0 +1,7 @@
+function startLoading() {
+  document.getElementById("loader").style.display = "block";
+}
+
+function stopLoading() {
+  document.getElementById("loader").style.display = "none";
+}
