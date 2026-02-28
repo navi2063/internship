@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    background-color: lch(95.67% 2.48 19.32);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.btn-container {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 6px 12px;
+    font-size: 14px;
+    border: 1px solid #43a74d;
+    background-color: #bdeaad;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
